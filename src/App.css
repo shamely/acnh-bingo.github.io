@@ -128,6 +128,26 @@
   margin-bottom: 3px;
 }
 
+.check-mark{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99;
+  font-size: 130px;
+  color: #58a8ff;
+  text-shadow: 2px 2px #0000005c;
+}
+
+.check-mark.active{
+  visibility: visible;
+}
+
+.check-mark.inactive{
+  visibility: hidden;
+}
+
 /* SEARCH */
 
 .villager-search{

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d0f3ace.css",
+    "main.js": "/static/js/main.c9443def.js",
+    "static/js/787.365619d4.chunk.js": "/static/js/787.365619d4.chunk.js",
+    "static/media/ACNH Bingo.png": "/static/media/ACNH Bingo.51980ab62f34e0648b70.png",
+    "static/media/nook-miles-ticket.png": "/static/media/nook-miles-ticket.ad6328e85f66805a9b5c.png",
+    "index.html": "/index.html",
+    "main.3d0f3ace.css.map": "/static/css/main.3d0f3ace.css.map",
+    "main.c9443def.js.map": "/static/js/main.c9443def.js.map",
+    "787.365619d4.chunk.js.map": "/static/js/787.365619d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d0f3ace.css",
+    "static/js/main.c9443def.js"
+  ]
+}

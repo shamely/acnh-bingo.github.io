@@ -1,6 +1,6 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import { connect } from "react-redux";
-import { getFilteredDreamies, getFilteredNotOnIsland, getRandomVillagers, NUMBER_OF_VILLAGERS } from "../../Redux/Helpers";
+import { getRandomVillagers, NUMBER_OF_VILLAGERS } from "../../Redux/Helpers";
 import BingoFreeSlot from "./BingoFreeSlot";
 import BingoSlot from "./BingoSlot";
 
