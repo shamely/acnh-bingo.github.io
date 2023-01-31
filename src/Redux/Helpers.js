@@ -76,3 +76,20 @@ export const getSuggestionFormat = (villagers) => {
 
     return suggestions
 }
+
+export const addElementToString = (element, stringList) => {
+    if(stringList.length > 0) stringList += ','
+    return stringList += element.toString()
+}
+
+export const removeElementFromString = (element, stringList) => {
+    if(stringList.length <= 0) return ''
+
+    let list = stringList.split(',')
+    const index = list.findIndex(e => e === element.toString())
+
+    if(index === -1) return stringList
+
+    list.splice(index, 1)
+    return list.join(',')
+}
